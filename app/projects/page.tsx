@@ -3,7 +3,7 @@ import React from "react";
 import { allProjects } from "contentlayer/generated";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
-import { Article } from "./article";ç
+import { Article } from "./article";
 import { Eye } from "lucide-react";
 
 export const revalidate = 60;
