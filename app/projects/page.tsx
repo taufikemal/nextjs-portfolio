@@ -3,11 +3,8 @@ import React from "react";
 import { allProjects } from "contentlayer/generated";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
-import { Article } from "./article";
-import { Redis } from "@upstash/redis";
+import { Article } from "./article";ç
 import { Eye } from "lucide-react";
-
-// const redis = Redis.fromEnv();
 
 export const revalidate = 60;
 export default async function ProjectsPage() {
